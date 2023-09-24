@@ -8,7 +8,8 @@ import ContactView from '../Views/View_Contact.vue'
 
 const routes = [{
     path: '/',
-    component: LandingPage
+    component: LandingPage,
+    redirect: '/home'
 }, {
     path: '/home',
     component: HomeView,
